@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            padding-top: 0px;
+            color: #ffffff;
+            background: #000000;
+            font-size: 20px;
+        }
+        .name{
+            text-align: center;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        .bold{
+            font-size: 60px;
+        }
+        header {
+            display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        background: rgb(59, 59, 59);
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 100%; 
+        top: 0; 
+        left: 0; 
+        z-index: 1000;
+        margin: 0px;
+        background: rgb(59, 59, 59);
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        padding-right: 100px;
+
+        }
+        h1 a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Pacifico', cursive;
+            z-index: 1000;
+            margin: 0;
+            padding: 10px;
+        }
+        nav {
+            text-align: right;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 10px;
+            
+            font-size: 18px;
+        }
+        section, footer {
+            padding: 20px;
+            margin: 10px;
+            background: rgb(59, 59, 59);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background: #222;
+            color: white;
+        }
+        span {
+            color: cornflowerblue;
+        }
+        .margin{
+          padding-right:25px;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="#Home">Portfo<span>lio.</span></a></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#experience">My Relevant Experience</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li class="margin"><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="name"> Hi, I am <span class="bold"><br> Shadi Barakat</span></h1>
+        <h1 class="name">and I am an aspiring web developer</h1>
+    
+    <section id="about">
+        <h2>About me</h2>
+        <p>Hello, Im Shadi Barakat, an aspiring software engineer currently studying for a bachelor of science in Computer Science at CSI College of Staten Island. 
+        I find passion in creating efficient software. I've always found myself to be passionate about computers and everything about them. Whats always fascinated me
+        is it's potential to change our lives. This fascination has grown into a career aspiration. It inspired me to take on the wide field of Computer Science.
+        I am learning to specialize in web development and plan to be proficient with languages such as,
+             </p>
+             <ul>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>Java</li>
+                </ul>
+            <p>While studying in college, I decided to explore other languages and learn to program on my own, which led me to create some amazing projects.
+            They can be found under <a href="#projects" style="color: white;"> My Projects</a>. I am currently searching for more opportunities to use the skills I currently 
+            have, and to further enhance those skills. </p>
+       
+    </section>
+    <section id="experience">
+        <h2>My Relavent Experience</h2>
+        <ul>
+            <li>Full Stack Web Development with Cloud</li>
+        </ul>
+        <p>An extensive internship with AplhaPrime Tea that dives deep into all parts of web development using CSS, HTML, and JavaScript.<br></p>
+        <ul>
+            <li>
+                <a target="_blank"  href="https://www.coursera.org/learn/python-crash-course/home/welcome" style="color: white;"> Course in Python</a>
+            </li>
+        </ul>
+        <p>Course that helps understand what Python is and why Python is relevant to automation. As well as understand how to use the basic Python structures such as strings, lists, and dictionaries.</p>
+        <p><a href="https://coursera.org/share/4d738f32ab9b1c05ab73f39b57f79db6" style="color: white;"> Course Certificate of Completion</a></p>
+        <p>
+            <ul>
+                <li>NIA Community Services Computer Science Instructor</li>
+            </ul>
+            Teach students in an after-school program the basics of computer science, instruct classes of 10-20 students the beginning steps of coding in C++, and web development through HTML and CSS.
+        </p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>In developing a Python-based Tic Tac Toe game, I designed an engaging yet straightforward console application that allows two players to compete in a timeless grid-based 
+        strategy game. Utilizing Python's intuitive syntax, the game's core was structured around a series of functions managing game logic, player input, and display updates.
+        Players alternate turns, inputting their moves via simple numeric keypad positions, which correspond to specific cells in a 3x3 grid. The program continuously checks for 
+        winning conditions—three consecutive identical symbols in a row, column, or diagonal—or the scenario where all cells are filled, resulting in a draw. Enhancements such as 
+        an AI opponent or graphical interface could be considered for future versions, but the current iteration focuses on solidifying the fundamental gameplay mechanics and ensuring
+        a seamless user experience. The user must use these controls. Left Mouse Click: Make a move. 'G': Toggle game mode between AI and PvP.'R': Restart the game.'0': Set AI to random mode.
+        '1': Set AI to use the minimax algorithm
+        </p><br>
+        <a target="_blank" href="https://github.com/shadibarakat/Tic-Tac-Toe" style="color: white;"> Tic Tac Toe  </a>
+    </section>
+    <section id="contact">
+        <h2>Contact Me!</h2>
+        <p><a href="mailto": shadibarakat2004@gmail.com style="color: white;"> Email</a> <br> +1 (347) -219-3131 <br> <a target="_blank" href="https://www.linkedin.com/in/shadi-barakat-781408265/" style="color: white;"> LinkedIn </a> <br> <a target="_blank" href="https://github.com/shadibarakat" style="color: white;"> Github </a> </p>
+    </section>5
+</body>
+</html>
